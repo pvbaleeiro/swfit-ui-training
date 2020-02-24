@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8526A5462402FEF3001596E9 /* FacebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526A5452402FEF3001596E9 /* FacebookView.swift */; };
 		8526A549240409F6001596E9 /* StateManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526A548240409F6001596E9 /* StateManagementView.swift */; };
+		8526A54C24045139001596E9 /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526A54B24045139001596E9 /* MVVMView.swift */; };
 		85744BF52401CFF80000B389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85744BF42401CFF80000B389 /* AppDelegate.swift */; };
 		85744BF72401CFF80000B389 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85744BF62401CFF80000B389 /* SceneDelegate.swift */; };
 		85744BF92401CFF80000B389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85744BF82401CFF80000B389 /* ContentView.swift */; };
@@ -79,6 +80,7 @@
 /* Begin PBXFileReference section */
 		8526A5452402FEF3001596E9 /* FacebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookView.swift; sourceTree = "<group>"; };
 		8526A548240409F6001596E9 /* StateManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagementView.swift; sourceTree = "<group>"; };
+		8526A54B24045139001596E9 /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		85744BF12401CFF80000B389 /* swift-ui-training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-ui-training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85744BF42401CFF80000B389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85744BF62401CFF80000B389 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +178,14 @@
 			path = "state-management";
 			sourceTree = "<group>";
 		};
+		8526A54A2404510F001596E9 /* mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				8526A54B24045139001596E9 /* MVVMView.swift */,
+			);
+			path = mvvm;
+			sourceTree = "<group>";
+		};
 		85744BE82401CFF80000B389 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +212,7 @@
 				85744C762401D9CC0000B389 /* apple-tutorial */,
 				85744C772402FAF50000B389 /* dynamic-list */,
 				8526A5442402FCFB001596E9 /* facebook-groups */,
+				8526A54A2404510F001596E9 /* mvvm */,
 				8526A547240408F9001596E9 /* state-management */,
 				85744BF42401CFF80000B389 /* AppDelegate.swift */,
 				85744BF62401CFF80000B389 /* SceneDelegate.swift */,
@@ -481,6 +492,7 @@
 				85744BF52401CFF80000B389 /* AppDelegate.swift in Sources */,
 				85744C452401D7770000B389 /* RotatedBadgeSymbol.swift in Sources */,
 				85744C442401D7770000B389 /* BadgeSymbol.swift in Sources */,
+				8526A54C24045139001596E9 /* MVVMView.swift in Sources */,
 				85744C2F2401D51A0000B389 /* Landmark.swift in Sources */,
 				85744C422401D7770000B389 /* GraphCapsule.swift in Sources */,
 				85744C432401D7770000B389 /* MapView.swift in Sources */,
